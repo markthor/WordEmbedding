@@ -1,4 +1,4 @@
-package wordembedding;
+package training;
 
 import java.io.File;
 import java.io.IOException;
@@ -13,7 +13,7 @@ import org.deeplearning4j.text.tokenization.tokenizer.preprocessor.CommonPreproc
 import org.deeplearning4j.text.tokenization.tokenizerfactory.DefaultTokenizerFactory;
 import org.deeplearning4j.text.tokenization.tokenizerfactory.TokenizerFactory;
 
-public class WordEmbedder {
+public class Trainer {
 	public static void main(String[] args) throws IOException {
 	
         
